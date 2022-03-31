@@ -1,0 +1,602 @@
+/* chemi stilizacia */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yesteryear&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* font-family: 'Raleway', sans-serif; */
+/* font-family: 'Yesteryear'; */
+
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.home {
+  height: 5000px;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 1.2fr 1fr 1fr 1fr 1fr 1fr 1.1fr;
+  row-gap: 5px;
+}
+
+.home .firstA {
+  background-image: url("https://static.wixstatic.com/media/375882_9f1a8e8b364946f38b7eb05436e76503f000.jpg/v1/fill/w_1349,h_891,al_c,q_85,usm_0.33_1.00_0.00,enc_auto/375882_9f1a8e8b364946f38b7eb05436e76503f000.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+header nav {
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+header nav ul {
+  width: 100%;
+  padding: 0px 32px;
+  margin: 0px;
+  display: inline-block;
+}
+
+header nav .between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header ul li {
+  display: inline-block;
+  margin: 20px;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+header ul li a:hover {
+  padding: 8px;
+  border: 2px solid #f0f3f6;
+  transition: 0.25s;
+  color: #f0f3f6;
+}
+
+.whitebg ul {
+  width: 100%;
+  padding: 0px 32px;
+  margin: 0px;
+  display: inline-block;
+}
+
+.whitebg nav .between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.whitebg ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.whitebg ul li a:hover {
+  padding: 8px;
+  border: 2px solid black;
+  transition: 0.25s;
+  color: black;
+}
+
+.active {
+  padding: 8px;
+  border: 2px solid #f0f3f6;
+}
+
+.whitebg .active {
+  padding: 8px;
+  border: 2px solid black;
+}
+
+.home .firstA .nameAndBtn {
+  height: 550px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home .firstA .nameAndBtn .name p {
+  font-size: 90px;
+  color: #f0f3f6;
+  font-family: "Yesteryear";
+  margin: 0px;
+  height: 100px;
+}
+
+.home .firstA .nameAndBtn .name .p1 {
+  text-align: center;
+  height: 80px;
+}
+
+.home .firstA .nameAndBtn .name .p2 {
+  text-align: center;
+  margin-left: 10px;
+}
+
+.home .firstA .nameAndBtn .btn {
+  width: 100%;
+  height: 50px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.home .firstA .nameAndBtn .btn button {
+  font-size: 20px;
+  font-weight: 400;
+  width: 80%;
+  height: 100%;
+  color: #f0f3f6;
+  background: transparent;
+  border: 2px solid #f0f3f6;
+}
+
+.home .firstA .nameAndBtn .btn button:hover {
+  background-color: #f0f3f6;
+  color: black;
+  transition: 0.4s;
+}
+
+.home .secondA {
+  background-image: url("http://toledoeyemd.com/wp-content/uploads/2017/04/dashboard-background.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home .secondA .dash p {
+  font-size: 100px;
+  color: #f0f3f6;
+  font-family: "Yesteryear";
+  margin: 0px;
+}
+
+.home .secondA .btn {
+  width: 100%;
+  height: 50px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home .secondA .btn button {
+  font-size: 20px;
+  font-weight: 400;
+  width: 50%;
+  height: 100%;
+  color: #f0f3f6;
+  background: transparent;
+  border: 2px solid #f0f3f6;
+}
+
+.home .secondA .btn button:hover {
+  background-color: #f0f3f6;
+  color: black;
+  transition: 0.4s;
+}
+
+.home .thirdA {
+  background-image: url("https://images.unsplash.com/photo-1509600110300-21b9d5fedeb7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home .forthA {
+  background-image: url("https://wallpaperaccess.com/full/6688282.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home .fifthA {
+  background-image: url("https://images.unsplash.com/photo-1568495248636-6432b97bd949?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home .sixthA {
+  background-image: url("https://static.wixstatic.com/media/9c608a_e54b55354054440c98192881f51566fc.jpg/v1/fill/w_1349,h_585,al_b,q_85,usm_0.66_1.00_0.01,enc_auto/9c608a_e54b55354054440c98192881f51566fc.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home .seventhA {
+  background-image: url("https://images.pexels.com/photos/209695/pexels-photo-209695.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  background-attachment: fixed;
+  display: grid;
+  grid-template-rows: 570px 140px;
+}
+
+.home .seventhA .divforaside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home .thirdA .upload p,
+.home .forthA .my p,
+.home .fifthA .room p,
+.home .sixthA .event p,
+.home .seventhA .contact p {
+  font-size: 100px;
+  color: white;
+  font-family: "Yesteryear";
+  margin: 0px;
+}
+
+.home .thirdA .btn,
+.home .forthA .btn,
+.home .fifthA .btn,
+.home .sixthA .btn,
+.home .seventhA .btn {
+  width: 100%;
+  height: 50px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home .thirdA .btn button,
+.home .forthA .btn button,
+.home .fifthA .btn button,
+.home .sixthA .btn button,
+.home .seventhA .btn button {
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+  width: 50%;
+  height: 100%;
+  background: transparent;
+  border: 2px solid #f0f3f6;
+}
+
+.home .thirdA .btn button:hover,
+.home .forthA .btn button:hover,
+.home .fifthA .btn button:hover,
+.home .sixthA .btn button:hover,
+.home .seventhA .btn button:hover {
+  background-color: #f0f3f6;
+  transition: 0.4s;
+  color: black;
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 30px;
+}
+
+footer .centeringfooter {
+  border-top: 2px solid black;
+}
+
+footer .links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+
+footer .links a {
+  color: black;
+  font-size: 25px;
+  margin: 10px;
+}
+
+footer .text p,
+footer .text p a {
+  font-size: 15px;
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footerH .text p,
+.footerH .text p a,
+.footerH .links a,
+.footerH .centeringfooter {
+  color: #f0f3f6;
+}
+
+.footerH .centeringfooter {
+  border-top: 2px solid #f0f3f6;
+}
+
+.event .top {
+  height: 520px;
+  background-image: url("https://www.cncentre.ca//en/rotatingimages/background_defaultInterior/interiorBackgroundBanner.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.event .nameE {
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.event .nameE p {
+  font-family: "Yesteryear";
+  font-size: 120px;
+  color: #f0f3f6;
+  margin: 0px;
+}
+
+.event .bottom {
+  margin-top: 50px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  row-gap: 15px;
+}
+
+.event .bottom .common h5,
+.event .bottom .wedding h5,
+.event .bottom .catering h5 {
+  font-size: 18px;
+  color: #2e2e2e;
+  font-family: "Raleway", sans-serif;
+}
+
+.event .bottom .common .centeredh5,
+.event .bottom .wedding .centeredh5,
+.event .bottom .catering .centeredh5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.event .bottom .common .centeredp,
+.event .bottom .wedding .centeredp,
+.event .bottom .catering .centeredp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.event .bottom .common .centeredp p,
+.event .bottom .wedding .centeredp p,
+.event .bottom .catering .centeredp p {
+  font-size: 15px;
+  color: #2e2e2e;
+  width: 550px;
+  text-align: center;
+}
+
+.event .bottom .common .btn,
+.event .bottom .wedding .btn,
+.event .bottom .catering .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.event .bottom .common .btn button,
+.event .bottom .wedding .btn button,
+.event .bottom .catering .btn button {
+  width: 220px !important;
+  height: 40px !important;
+  border: 3px solid #2e2e2e;
+  background-color: #ffffff;
+}
+
+.event .bottom .common .btn button:hover,
+.event .bottom .wedding .btn button:hover,
+.event .bottom .catering .btn button:hover {
+  background-color: darkslategray;
+  transition: 0.4s;
+}
+
+.event .bottom .common .btn button a,
+.event .bottom .wedding .btn button a,
+.event .bottom .catering .btn button a {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  color: black;
+}
+
+.contact .top {
+  height: 520px;
+  background-image: url("https://wallpaperaccess.com/full/3124511.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.contact .nameC {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact .nameC p {
+  font-family: "Yesteryear";
+  font-size: 120px;
+  color: #f0f3f6;
+}
+
+.contact .bottom {
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact .bottom .divforh5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact .bottom .divforh5 h5 {
+  font-size: 18px;
+  color: #2e2e2e;
+  width: 300px;
+  text-align: center;
+}
+
+.contact .bottom .divforp p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact .bottom .centeredlink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainl {
+  background-image: url("https://wallpaperaccess.com/full/2314983.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 657px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainl .center {
+  background-color: #f0f3f6;
+  width: 60%;
+  margin: 10px auto;
+  padding: 20px;
+  box-shadow: rgba(255, 255, 255, 0.4) 0 0 8px 8px;
+}
+
+.main {
+  background-color: white;
+  width: 80%;
+  margin: 50px auto;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 0 4px 4px;
+}
+
+.background {
+  background-image: url("https://icon-library.com/images/pattern-icon/pattern-icon-12.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 657px;
+}
+
+.maind {
+  background-color: white;
+  width: 80%;
+  margin: 50px auto;
+  padding: 20px;
+  padding-top: 10px;
+  box-shadow: rgba(255, 255, 255, 0.4) 0 0 4px 4px;
+}
+
+.mainu {
+  background-color: #f0f3f6;
+  width: 66%;
+  margin: 50px auto;
+  margin-top: 20px;
+  padding: 20px;
+  box-shadow: rgba(255, 255, 255, 0.35) 0 0 8px 8px;
+}
+
+.bgforU {
+  background-image: url("https://icon-library.com/images/pattern-icon/pattern-icon-12.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 657px;
+}
+
+.rating-css div {
+  color: #ffe400;
+  font-size: 15px;
+  font-weight: 400;
+}
+.rating-css input {
+  display: none;
+}
+.rating-css input + label {
+  font-size: 25px;
+  color: orange;
+  cursor: pointer;
+}
+.rating-css input:checked + label ~ label {
+  color: #838383;
+}
+.rating-css label:active {
+  transform: scale(0.8);
+  transition: 0.3s ease;
+}
+
+.yourH {
+  background-color: #f0f3f6;
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  box-shadow: rgba(255, 255, 255, 0.4) 0 0 8px 8px;
+}
+
+.bgforUp {
+  background-image: url("https://icon-library.com/images/pattern-icon/pattern-icon-12.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.mainU {
+  background-color: #f0f3f6;
+  width: 66%;
+  margin: 80px auto;
+  padding: 20px;
+  box-shadow: rgba(255, 255, 255, 0.35) 0 0 8px 8px;
+}
